@@ -63,6 +63,9 @@
 ```bash
 sudo apt update
 sudo apt install g++ libpcap-dev -y
+# 📦 Install required libraries
+sudo apt install libpcap-dev libcurl4-openssl-dev libssl-dev -y
+
 
 # Clone the repo
 git clone https://github.com/cyberghosts02/blackops-cli.git
