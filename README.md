@@ -71,8 +71,9 @@ sudo apt install libpcap-dev libcurl4-openssl-dev libssl-dev -y
 git clone https://github.com/cyberghosts02/blackops-cli.git
 cd blackops-cli
 
-# Compile the suite
-g++ -o cyber_alpha alpha.cpp -lpcap
+# 🔨 Compile the tool with all required libs
+g++ -o cyber_alpha alpha.cpp -std=c++17 -lpcap -lcurl -lssl -lcrypto
+
 
 # Run the suite
 ./cyber_alpha
