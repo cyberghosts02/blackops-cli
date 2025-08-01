@@ -69,7 +69,7 @@ git clone https://github.com/cyberghosts02/blackops-cli.git
 cd blackops-cli
 
 # Compile the suite
-g++ -o cyber_alpha main.cpp -lpcap
+g++ -o cyber_alpha alpha.cpp -lpcap
 
 # Run the suite
 ./cyber_alpha
