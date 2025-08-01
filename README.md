@@ -17,96 +17,74 @@
 ---
 
 ## ✨ Features
-╔════════════════════════════════╗
-║     [ Select a Tool ]         ║
-╠════════════════════════════════╣
-║ [ 1] 🌐  IP Tracer             ║
-║ [ 2] 🔍  Subdomain Finder      ║
-║ [ 3] 🕷   Web Spider            ║
-║ [ 4] 💣  DDoS Launcher         ║
-║ [ 5] 💉  SQLi Auto Exploit     ║
-║ [ 6] 🧿  CVE Auto Scanner      ║
-║ [ 7] 🧩  Username Scanner      ║
-║ [ 8] 🔍  Reverse Image Search  ║
-║ [ 9] 🕵   People Finder         ║
-║[10] 🔐  File Encryptor         ║
-║[11] 🧹  Anti-Trace Cleaner     ║
-║[12] 🔥  Firewall Manager       ║
-║[13] 🐚  Shell Uploader         ║
-║[14] 🎭  MAC Changer            ║
-║[15] 🔍  Port Scanner           ║
-║[16] 📡  Packet Sniffer         ║
-║[17] 🧰  Wordlist Generator     ║
-║[18] 👁  Hidden File Finder     ║
-║[19] 🧠  Process Monitor        ║
-║[20] 🪓  Bash Logger             ║
-║[21] 👤  Developer Info         ║
-║[ 0] ❌  Exit                   ║
-╚════════════════════════════════╝
+
+╔══════════════════════════════════════════════╗
+║ [ Select a Tool ] ║
+╠══════════════════════════════════════════════╣
+║ [ 1] 🌐 IP Tracer [ 2] 🔍 Subdomain Finder ║
+║ [ 3] 🕷 Web Spider [ 4] 💣 DDoS Launcher ║
+║ [ 5] 💉 SQLi Auto Exploit [ 6] 🧿 CVE Auto Scanner ║
+║ [ 7] 🧩 Username Scanner [ 8] 🔍 Reverse Image Search ║
+║ [ 9] 🕵 People Finder [10] 🔐 File Encryptor ║
+║[11] 🧹 Anti-Trace Cleaner [12] 🔥 Firewall Manager ║
+║[13] 🐚 Shell Uploader [14] 🎭 MAC Changer ║
+║[15] 🔍 Port Scanner [16] 📡 Packet Sniffer ║
+║[17] 🧰 Wordlist Generator [18] 👁 Hidden File Finder ║
+║[19] 🧠 Process Monitor [20] 🪓 Bash Logger ║
+║[21] 👤 Developer Info [ 0] ❌ Exit ║
+╚══════════════════════════════════════════════╝
+
+
 
 ---
 
-## 🔧 Installation
+## 🛠 Installation
 
-### 🐧 Supported Platforms:
+### ✅ Supported Platforms
 - Kali Linux
 - Parrot OS
-- Termux (with `proot` and proper packages)
+- Ubuntu / Debian
+- Termux (with `proot` and proper dependencies)
 
-### 💻 Requirements:
-- `g++` (C++ Compiler)
-- `libpcap-dev`
-- `make` (optional)
-
-### 📥 Build Instructions:
+### 📦 Dependencies
 
 ```bash
 sudo apt update
-sudo apt install g++ libpcap-dev -y
-# 📦 Install required libraries
-sudo apt install libpcap-dev libcurl4-openssl-dev libssl-dev -y
-
-
-# Clone the repo
+sudo apt install g++ make git libpcap-dev libcurl4-openssl-dev libssl-dev -y
+```
+#  🔨 Compilation
+```
 git clone https://github.com/cyberghosts02/blackops-cli.git
 cd blackops-cli
 
-# 🔨 Compile the tool with all required libs
 g++ -o cyber_alpha alpha.cpp -std=c++17 -lpcap -lcurl -lssl -lcrypto
-
-
-# Run the suite
-./cyber_alpha
 ```
-🚀 Usage
+## 🚀 Usage
 ```
 ./cyber_alpha
 ```
-*Navigate the menu using number keys (1–21)*
+*Navigate the menu using number keys 1–21*
 
-*Exit with [0] ❌*
+*Press 0 to exit*
 
-*Run with sudo for tools requiring elevated privileges*
+*Run with sudo for full functionality (network tools, scanners, etc.)*
 
+## 📱 Termux Support 
+```
+pkg update && pkg upgrade
+pkg install clang git openssl curl libpcap
+clang++ -o cyber_alpha alpha.cpp -std=c++17 -lpcap -lcurl -lssl -lcrypto
+```
 
-## 👨‍💻 Developer Info
+### 👨‍💻 Developer Info
+```
+```   
+ 👤 Developer: CYBER ALPHA
+  
+  🧠 Team: CYBER GHOSTS
 
-    👤 Developer: CYBER ALPHA
+   💬 Telegram: @cyber_alpha_pk
 
-    🧠 Team: CYBER GHOSTS
+  📧 Email: alpha-0.2-pk@proton.me
 
-    💬 Telegram: @cyber_alpha_pk
-
-    Contributions, forks, and suggestions are always welcome.
-
-## ⚠️ Disclaimer
-
-    This tool is intended strictly for educational and authorized security testing purposes.
-    Misuse of BLACKOPS-CLI may be illegal. The developer and contributors are not responsible for any misuse or damages.
-    You must obtain proper authorization before using this tool on any network or system.
-
-
-### ⭐ Support
-
-*If you found this tool useful, please star the repository and share it with others in the cybersecurity community.*
-<p align="center"> ⭐ https://github.com/cyberghosts02/blackops-cli ⭐ </p> ``` 
+  *Contributions, forks, pull requests, and feedback are always welcome.*
