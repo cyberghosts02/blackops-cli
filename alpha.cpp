@@ -398,7 +398,7 @@ void tool_developer_info() {
     cout << BLUE  << "📦 Tools:         " << RESET << "21 Heavy Red Team Tools (C++ CLI)\n";
     cout << CYAN  << "📞 Contact:       " << RESET << "@cyber_alpha_pk (Telegram)\n";
     cout << RED   << "🛡️  Use:           " << RESET << "Ethical hacking & Red Teaming ONLY\n";
-    cout << BLUE  << "📍 Location:      " << RESET << "Pakistan 🇵🇰\n";
+    cout << BLUE  << "📍 Location:      " << RESET << "UNKNOWN\n";
 }
 
 // ───────────────────── MENU ─────────────────────
