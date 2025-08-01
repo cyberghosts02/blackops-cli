@@ -20,17 +20,17 @@
 ╔════════════════════════════════════════════════════════════╗
 ║                [ Select a Tool to Launch ]                ║
 ╠════════════════════════════════════════════════════════════╣
-║ [ 1] 🌐  IP Tracer              [ 2] 🔍  Subdomain Finder     ║
-║ [ 3] 🕷   Web Spider            [ 4] 💣  DDoS Launcher         ║
-║ [ 5] 💉  SQLi Auto Exploit     [ 6] 🧿  CVE Auto Scanner      ║
-║ [ 7] 🧩  Username Scanner      [ 8] 🔍  Reverse Image Search  ║
-║ [ 9] 🕵   People Finder        [10] 🔐  File Encryptor        ║
-║[11] 🧹  Anti-Trace Cleaner     [12] 🔥  Firewall Manager      ║
-║[13] 🐚  Shell Uploader         [14] 🎭  MAC Changer           ║
-║[15] 🔍  Port Scanner           [16] 📡  Packet Sniffer        ║
-║[17] 🧰  Wordlist Generator     [18] 👁  Hidden File Finder    ║
-║[19] 🧠  Process Monitor        [20] 🪓  Bash Logger            ║
-║[21] 👤  Developer Info         [ 0] ❌  Exit                  ║
+║ [ 1]  IP Tracer              [ 2]  Subdomain Finder         ║
+║ [ 3]  Web Spider             [ 4]  DDoS Launcher            ║
+║ [ 5]  SQLi Auto Exploit      [ 6]  CVE Auto Scanner         ║
+║ [ 7]  Username Scanner       [ 8]  Reverse Image Search     ║
+║ [ 9]  People Finder          [10]  File Encryptor           ║
+║[11]  Anti-Trace Cleaner      [12]  Firewall Manager         ║
+║[13]  Shell Uploader          [14]  MAC Changer              ║
+║[15]  Port Scanner            [16]  Packet Sniffer           ║
+║[17]  Wordlist Generator      [18]  Hidden File Finder       ║
+║[19]  Process Monitor         [20]  Bash Logger              ║
+║[21]  Developer Info          [ 0]  Exit                     ║
 ╚════════════════════════════════════════════════════════════╝
 
 ---
