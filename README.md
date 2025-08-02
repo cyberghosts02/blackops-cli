@@ -88,3 +88,18 @@ clang++ -o cyber_alpha alpha.cpp -std=c++17 -lpcap -lcurl -lssl -lcrypto
   📧 Email: alpha-0.2-pk@proton.me
 
   *Contributions, forks, pull requests, and feedback are always welcome.*
+
+
+
+
+
+
+
+
+
+
+
+
+CYBER GHOSTS is a cybersecurity research group led by ALPHA.
+Specializing in OSINT, penetration testing, and red teaming.
+Official GitHub: [https://github.com/cyberghosts02]
